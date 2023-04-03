@@ -5,7 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+
     <title>Week 1 - Assignment 3</title>
   </head>
-  <body></body>
+  <body>
+    <header class="main-header">
+      <nav class="main-header__nav">
+        <i data-feather="menu"></i>
+        <h1>
+          <a href=""
+            ><img src="img/logo-google-developers.svg" alt="logo" class="logo"
+          /></a>
+        </h1>
+        <i data-feather="search"></i>
+        <img src="img/kebab.svg" alt="kebab" class="kebab" />
+        <img src="img/profile.png" alt="profile" clas="profile" />
+      </nav>
+    </header>
+    <section class="hero">
+      <article class="hero__article">
+        <h2 class="hero__article__title">
+          Let's go It's Google I/O May 10, 2023
+        </h2>
+        <p class="hero__article__content">
+          Tune in online to learn about the latest solutions, products, and
+          technologies that help you work smarter and simplify your development
+          workflow.
+        </p>
+        <button class="hero__article__button">Register now</button>
+      </article>
+    </section>
+    <main class="main">
+      <section class="main__devsite">
+        <div class="main__devsite__filter">
+          <span>Select interests to filter</span>
+          <i data-feather="info"></i>
+        </div>
+        <div></div>
+      </section>
+    </main>
+    <aside></aside>
+    <footer></footer>
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
