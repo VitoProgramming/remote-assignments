@@ -203,6 +203,7 @@ button {
     background-color: transparent;
     width: initial;
     height: initial;
+    transition: none;
   }
 
   .nav__menu {
