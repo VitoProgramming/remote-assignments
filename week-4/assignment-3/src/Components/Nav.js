@@ -36,7 +36,6 @@ function Nav() {
           className="nav__menu__container"
           style={{
             right: isActive ? "0px" : "-100%",
-            opacity: isActive ? "1" : "0",
           }}
         >
           <ul className="nav__menu">
