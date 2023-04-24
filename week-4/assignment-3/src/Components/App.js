@@ -3,11 +3,11 @@ import Nav from "./Nav";
 import Main from "./Main";
 import "../App.css";
 
-function App() {
+function App() 
   return (
     <>
-      <Header></Header>
-      <Main></Main>
+      <Header />
+      <Main />
     </>
   );
 }
