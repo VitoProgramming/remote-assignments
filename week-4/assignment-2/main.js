@@ -12,7 +12,7 @@ function render(data) {
 
   let html = "";
 
-  data.map(
+  data.forEach(
     (product) =>
       (html += `<article>
       <h2>${product.name}</h2>
